@@ -129,6 +129,8 @@ nav a {
 
 
 
+
+
 /* banner */
 
 .hero-container {
@@ -201,6 +203,10 @@ button {color: var(--WHITE, #FFF);
     padding: 16px 32px;
 }
 /* end hero container */
+
+
+
+
 
 
 /* section */
@@ -384,19 +390,18 @@ section .vision .card:not(:nth-child(1)){
     }
 }
 
-        /* END OUR TEAM DESIGN */
+    /* END OUR TEAM DESIGN */
         
         
-        /* CUSTOMERS DESIGN AND LAYOUT */
+    /* CUSTOMERS DESIGN AND LAYOUT */
         
         
 .customerheader {
     display: flex;
     justify-content: center;
     padding-top: 120px;
-    padding-bottom: 72px;
-            
-        }
+    padding-bottom: 72px;      
+    }
 
 .customer {
     list-style: none;
@@ -413,16 +418,17 @@ section .vision .card:not(:nth-child(1)){
     fill:#8E8F99;
     padding: 16px 32px;
     border-radius: 4px;
-    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-    
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);    
 }
 
 .clientlogo {
        padding-top: 2px;
 }
 
-         /* CUSTOMERS DESIGN AND LAYOUT */
+ /* CUSTOMERS DESIGN AND LAYOUT */
 
+
+ 
 
 /* end of body */
 
