@@ -277,6 +277,7 @@ ul .innerparagraph {
 
 /* start of footer layout */
 
+
 footer {
     /* width: 1440px; */
     height: 312px;
@@ -284,13 +285,72 @@ footer {
 }
 
 footer .footer-content {
-    padding-top: 100px;
+    flex-direction: column;
+    display: flex;
     padding-left: 156px;
 }
 
 footer a {
     text-decoration: none;
     margin-bottom: 16px;
+}
+
+.hero-container h1 {
+    color: #fff;
+}
+
+
+
+/* SOCIAL MEDIA FOOTER */
+
+
+.socialmediafooter {
+    color: var(--WHITE, #FFF);
+
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.socialicons {
+    fill: #fff;
+}
+
+.socialmedia-1 {
+    display: flex;
+    /* justify-content: center; */
+    background-color: #4D5AE5;
+    padding: 12px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.socialmediaicons-1 {
+    display: flex;
+    align-content: center;
+    gap: 24px;
+}
+
+/* SOCIAL MEDIA FOOTER */
+
+.footersection {
+    display: flex;
+    gap: 120px;
+    padding-top: 100px;
+
+
+}
+
+.footersocialmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 
@@ -324,4 +384,12 @@ footer p:hover {
 .selection a:hover {
     color:#FFF;
     background-color: #4D5AE5;
+}
+
+.socialmedia-1:hover {
+    transform: scale(1.2);
+}
+
+.socialmedia:hover {
+    transform: scale(1.2);
 }
